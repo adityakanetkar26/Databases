@@ -4,7 +4,7 @@ import os
 
 
 def main():
-	csvFile = open("Data/SFBusinesses/businesses.csv", "r")
+	csvFile = open("Data/SFBusinesses/inspections.csv", "r")
 	csvReader = csv.reader(csvFile)
 	csvData = list(csvReader)
 	fieldNames = tuple(csvData[0])
