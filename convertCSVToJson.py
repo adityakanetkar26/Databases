@@ -1,3 +1,4 @@
+#!/bin/python
 import csv
 import simplejson
 import os
